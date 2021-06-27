@@ -71,7 +71,7 @@ $(document).on('keypress', function() {
         setTimeout(function() {
           $("#green").removeClass("pressed");
         }, 100);
-        var audio = new Audio("sounds/green.mp3");
+        var audio = new Audio("green.mp3");
         audio.play();
 
 
@@ -83,7 +83,7 @@ $(document).on('keypress', function() {
           setTimeout(function() {
             $("#red").removeClass("pressed");
           }, 100);
-          var audio = new Audio("sounds/red.mp3");
+          var audio = new Audio("red.mp3");
           audio.play();
 
 
@@ -95,7 +95,7 @@ $(document).on('keypress', function() {
             setTimeout(function() {
               $("#yellow").removeClass("pressed");
             }, 100);
-            var audio = new Audio("sounds/yellow.mp3");
+            var audio = new Audio("yellow.mp3");
             audio.play();
 
 
@@ -107,7 +107,7 @@ $(document).on('keypress', function() {
               setTimeout(function() {
                 $("#blue").removeClass("pressed");
               }, 100);
-              var audio = new Audio("sounds/blue.mp3");
+              var audio = new Audio("blue.mp3");
               audio.play();
 
 
@@ -120,7 +120,7 @@ $(document).on('keypress', function() {
                setTimeout(function() {
                $("body").removeClass("game-over");
                }, 100);
-               var audio = new Audio("sounds/red.mp3");
+               var audio = new Audio("wrong.mp3");
                audio.play();
 
     }
